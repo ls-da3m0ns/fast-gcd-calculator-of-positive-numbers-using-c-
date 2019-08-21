@@ -1,10 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int M,N,i,j;
-    cin>>M>>N;
-int m=M,n=N;
-int flag=0;
+   int m,n,i,flag=0;
+cin>>m>>n;
 while(flag<=0)
 { if(m>=n){
     if(m%n==0){cout<<"gcd is "<<n;flag=1;}
